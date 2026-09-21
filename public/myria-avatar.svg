@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Myria AI companion portrait</title>
+<desc id="desc">A silver-haired anime-inspired AI companion portrait with warm gold accents and crimson Reforge lighting.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08070b"/><stop offset=".55" stop-color="#24121c"/><stop offset="1" stop-color="#5d1730"/></linearGradient>
+  <linearGradient id="hair" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#ffffff"/><stop offset=".42" stop-color="#d9d8e2"/><stop offset=".72" stop-color="#f1c65c"/><stop offset="1" stop-color="#b66b27"/></linearGradient>
+  <linearGradient id="coat" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#1e1a24"/><stop offset=".55" stop-color="#0b0a0e"/><stop offset="1" stop-color="#741d39"/></linearGradient>
+  <radialGradient id="skin" cx=".5" cy=".36" r=".68"><stop stop-color="#ffe9dc"/><stop offset=".72" stop-color="#e8baa8"/><stop offset="1" stop-color="#b77e76"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+</defs>
+<rect width="512" height="512" rx="96" fill="url(#bg)"/>
+<circle cx="256" cy="244" r="190" fill="none" stroke="#c83f5b" stroke-opacity=".3" stroke-width="2"/>
+<circle cx="256" cy="244" r="162" fill="none" stroke="#fff" stroke-opacity=".08"/>
+<path d="M86 438c31-78 88-122 170-122s139 44 170 122v74H86z" fill="url(#coat)"/>
+<path d="M154 172c9-85 52-128 103-128 58 0 103 52 102 136-4 83-25 157-102 168-72-12-99-83-103-176z" fill="url(#hair)"/>
+<path d="M185 158c15-46 38-69 73-69 42 0 68 30 73 80l-8 76c-6 62-27 101-66 105-41-5-63-42-69-105z" fill="url(#skin)"/>
+<path d="M167 166c13-72 47-112 94-112 27 0 58 16 75 42-39-8-79 2-108 31-24 25-36 55-42 93z" fill="url(#hair)"/>
+<path d="M348 164c3 28 2 59-2 93-9 77-37 127-89 137 77-4 115-79 111-196z" fill="#d7a64f" opacity=".72"/>
+<path d="M176 193c-24 84-21 151 8 201-45-34-58-107-36-188z" fill="#efeef5" opacity=".9"/>
+<path d="M204 210c16-10 36-11 53-2" fill="none" stroke="#5f3a42" stroke-width="7" stroke-linecap="round"/>
+<path d="M272 208c16-10 35-9 49 1" fill="none" stroke="#5f3a42" stroke-width="7" stroke-linecap="round"/>
+<path d="M207 226c13 12 31 12 44 0-8-17-35-17-44 0z" fill="#f4c750"/>
+<path d="M276 226c12 12 29 12 41 0-7-17-33-17-41 0z" fill="#f4c750"/>
+<ellipse cx="230" cy="225" rx="5" ry="11" fill="#1d1715"/><ellipse cx="297" cy="225" rx="5" ry="11" fill="#1d1715"/>
+<circle cx="228" cy="222" r="2.5" fill="#fff"/><circle cx="295" cy="222" r="2.5" fill="#fff"/>
+<path d="M251 248c3 4 7 5 12 1" fill="none" stroke="#b67972" stroke-width="4" stroke-linecap="round"/>
+<path d="M227 276c21 17 43 17 64 0-7 28-56 29-64 0z" fill="#8b3047"/>
+<path d="M234 279c17 9 33 9 49 0" fill="none" stroke="#f7c4c4" stroke-width="3" stroke-linecap="round"/>
+<path d="M190 343c20 31 43 47 67 47 25 0 50-16 70-47l18 48-87 66-88-66z" fill="#f4dccf"/>
+<path d="M213 370l44 34 44-34 18 142H194z" fill="#0a090d"/>
+<path d="M257 402l-27 43 27 67 28-67z" fill="#9f2948"/>
+<path d="M105 105c54 3 92 20 116 50-43-19-85-19-126 2z" fill="#fff" opacity=".08"/>
+<path d="M407 112c-53 9-91 31-111 65 39-24 81-29 125-14z" fill="#c83f5b" opacity=".13"/>
+<path d="M113 405c40-29 68-57 84-84-48 20-79 42-105 75z" fill="#f7efe9" opacity=".13"/>
+<path d="M399 405c-40-29-68-57-84-84 48 20 79 42 105 75z" fill="#0a080d" stroke="#d13e5d" stroke-opacity=".25"/>
+<circle cx="256" cy="244" r="201" fill="none" stroke="#f2cf78" stroke-opacity=".28" stroke-width="4" stroke-dasharray="4 16" filter="url(#glow)"/>
+<circle cx="392" cy="118" r="5" fill="#e75a74" filter="url(#glow)"/><circle cx="119" cy="343" r="4" fill="#f3d270" filter="url(#glow)"/>
+</svg>
